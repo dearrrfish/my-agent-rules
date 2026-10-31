@@ -1,0 +1,9 @@
+schemaVersion: 1
+name: core
+rules:
+  - id: personal/autonomy
+  - id: personal/evidence
+  - id: personal/ownership
+  - id: personal/git
+defaults:
+  compatibility: portable

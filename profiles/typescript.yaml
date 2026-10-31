@@ -1,0 +1,7 @@
+schemaVersion: 1
+name: typescript
+extends: [personal/engineering]
+rules:
+  - id: personal/typescript
+defaults:
+  compatibility: portable

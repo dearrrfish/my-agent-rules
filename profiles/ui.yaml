@@ -1,0 +1,8 @@
+schemaVersion: 1
+name: ui
+extends: [personal/engineering]
+rules:
+  - id: personal/ui
+  - id: personal/localization
+defaults:
+  compatibility: portable

@@ -1,0 +1,25 @@
+schemaVersion: 1
+namespace: personal
+version: 0.1.0
+rules:
+  - rules/autonomy.md
+  - rules/evidence.md
+  - rules/ownership.md
+  - rules/navigation.md
+  - rules/contracts.md
+  - rules/testing.md
+  - rules/debugging.md
+  - rules/architecture.md
+  - rules/git.md
+  - rules/ui.md
+  - rules/platforms.md
+  - rules/localization.md
+  - rules/dependencies.md
+  - rules/typescript.md
+  - rules/python.md
+profiles:
+  - profiles/core.yaml
+  - profiles/engineering.yaml
+  - profiles/ui.yaml
+  - profiles/typescript.yaml
+  - profiles/python.yaml

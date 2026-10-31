@@ -1,0 +1,7 @@
+schemaVersion: 1
+name: python
+extends: [personal/engineering]
+rules:
+  - id: personal/python
+defaults:
+  compatibility: portable

@@ -1,0 +1,13 @@
+schemaVersion: 1
+name: engineering
+extends: [personal/core]
+rules:
+  - id: personal/navigation
+  - id: personal/contracts
+  - id: personal/testing
+  - id: personal/debugging
+  - id: personal/architecture
+  - id: personal/platforms
+  - id: personal/dependencies
+defaults:
+  compatibility: portable
