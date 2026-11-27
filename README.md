@@ -6,6 +6,18 @@
 
 ## 选择 Profile
 
+### v0.2 精简系列（推荐用于现代前沿/均衡模型）
+
+| Profile | 适用范围 |
+| --- | --- |
+| personal/lean-core | 单屏精简常驻微内核（含自主推进、安全边界、实证沟通、最小抽象与阶段本地提交） |
+| personal/lean | **推荐默认**；lean-core + 按需加载的复杂 Git、视觉自检 UI、契约与风险验证、阶段交接 |
+| personal/lean-ops | lean + 按需加载的跨平台与外部依赖安全边界 |
+
+v0.2 针对现代前沿模型精简了常驻上下文与通用工程常识（淘汰 `navigation`/`architecture`/`debugging`/`typescript`/`python`/`localization` 独立规则），将阶段本地 commit 升格为常驻微内核要点，强化了界面真实渲染的多模态自检与阶段 `handoff.md` 交接，并通过 `conflictsWith` 防止同一 Profile 混选 v0.1 与 v0.2 等价规则。
+
+### v0.1 经典系列（保留用于向后兼容与 A/B 对比）
+
 | Profile | 适用范围 |
 | --- | --- |
 | personal/core | 三条精简常驻规则与按任务读取的 Git 阶段提交规则 |
@@ -14,7 +26,7 @@
 | personal/typescript | engineering + TypeScript 路径规则 |
 | personal/python | engineering + Python 路径规则 |
 
-先用 core；需要工程主题或技术栈时显式选择对应 Profile。条件规则的加载取决于宿主能力；portable 模式可能生成“先读取”指引，这依赖 agent 遵循指引，不是自动加载保证。
+日常新项目优先用 `personal/lean`（最小可用可选 `personal/lean-core`）；需要对比或兼容旧工作区时可继续使用 v0.1 Profile。条件规则的加载取决于宿主能力；portable 模式可能生成“先读取”指引，这依赖 agent 遵循指引，不是自动加载保证。
 
 ## 本地使用
 

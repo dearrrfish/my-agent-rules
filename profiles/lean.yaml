@@ -1,0 +1,10 @@
+schemaVersion: 1
+name: lean
+extends: [personal/lean-core]
+rules:
+  - id: personal/git-advanced
+  - id: personal/ui-visual
+  - id: personal/contracts-testing
+  - id: personal/session-handoff
+defaults:
+  compatibility: portable

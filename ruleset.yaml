@@ -1,6 +1,6 @@
 schemaVersion: 1
 namespace: personal
-version: 0.1.0
+version: 0.2.0
 rules:
   - rules/autonomy.md
   - rules/evidence.md
@@ -17,9 +17,18 @@ rules:
   - rules/dependencies.md
   - rules/typescript.md
   - rules/python.md
+  - rules/v2/core-lean.md
+  - rules/v2/git-advanced.md
+  - rules/v2/ui-visual.md
+  - rules/v2/contracts-testing.md
+  - rules/v2/session-handoff.md
+  - rules/v2/ops-security.md
 profiles:
   - profiles/core.yaml
   - profiles/engineering.yaml
   - profiles/ui.yaml
   - profiles/typescript.yaml
   - profiles/python.yaml
+  - profiles/lean-core.yaml
+  - profiles/lean.yaml
+  - profiles/lean-ops.yaml
